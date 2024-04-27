@@ -1,0 +1,107 @@
+:root {
+  --background-color: #000814;
+  --primary-color: #BF4E30;
+  --secondary-color: #6C6EA0;
+  --accent-color-1: #CBE896;
+  --accent-color-2: #AAC0AA;
+  --white: whitesmoke;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-text);
+  font-size: 16px;
+  background-color: var(--background-color);
+  color: #fff;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.75em;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.5em;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.25em;
+  color: var(--white);
+}
+
+
+
+/**NAVBAR**/
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first-name {
+  font-family: var(--font-display);
+  font-size: 1.5em;
+  color: var(--primary-color)
+}
+
+.last-name {
+  font-family: var(--font-display);
+  font-size: 1.5em;
+  color: var(--accent-color-2)
+}
+
+.links-row {
+  margin-left: 32px;
+  color: var(--accent-color-2);
+  font-size: 1.25em;
+}
+
+/**HERO SECTION**/
+
