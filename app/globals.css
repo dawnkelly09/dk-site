@@ -77,8 +77,6 @@ p {
   color: var(--white);
 }
 
-
-
 /**NAVBAR**/
 .nav-logo {
   display: flex;
@@ -175,6 +173,13 @@ p {
   padding-left: 4rem;
   padding-top: 2.5rem;
   gap: 2.0rem;
+}
+
+.center-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 767px) {
