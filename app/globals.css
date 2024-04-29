@@ -149,10 +149,6 @@ p {
   gap: 2.0rem;
 }
 
-.hero-h2 {
-
-}
-
 .grid-box-3 {
   grid-area: text2;
   border: 0.50em var(--accent-color-2) solid;
@@ -181,11 +177,28 @@ p {
   gap: 2.0rem;
 }
 
-/** MEDIA Queries **/
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
   .hero-container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr; /* Set to a single column */
+    grid-template-areas: 
+      "image1"
+      "text1"
+      "text2"
+      "text3";
+    padding: 1rem; /* Adjust padding for better spacing */
+  }
+
+  .grid-box-1 {
+    border-radius: 30% 0 0 0; 
+    padding: 1rem;
+  }
+  .grid-box-2,
+  .grid-box-3 {
+    border-radius: 0 0 0 0; /* Remove border radius for uniform appearance */
+    padding: 1rem; /* Adjust padding for better spacing */
+  }
+  .grid-box-4 {
+    border-radius: 0 0 30% 0; /* Remove border radius for uniform appearance */
+    padding: 1rem; /* Adjust padding for better spacing */
   }
 }
-

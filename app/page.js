@@ -20,7 +20,7 @@ export default function Home() {
         }} className="hero-h2">
           Learn in Public
         </h2>
-        <p>Need someone to become obssessed with learning deeply about your thing and sharing the journey with motivated builders and their communities? Hi, it's me.</p>
+        <p>Need someone to become obssessed with learning deeply about your thing and share the journey with motivated builders and their communities? Hi, it's me.</p>
       </div>
       <div className="grid-box-3 text2">
         <h2 style={{ 
@@ -41,7 +41,6 @@ export default function Home() {
         <p>Information is the key ingredient to cultivating the knowledge needed to innovate, adapt, and hopefully create a better world. Information is the most basic of public goods and should be free for those who wish to learn.</p>
       </div>
       </section>
-      
     </main>
   );
 }
