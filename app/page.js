@@ -20,7 +20,7 @@ export default function Home() {
         }} className="hero-h2">
           Learn in Public
         </h2>
-        <p>Need someone to become obssessed with learning deeply about your thing and share the journey with motivated builders and their communities? Hi, it's me.</p>
+        <p>Need someone to become obssessed with learning deeply about your thing and share the journey with motivated builders and their communities? Hi, it&apos;s me.</p>
       </div>
       <div className="grid-box-3 text2">
         <h2 style={{ 

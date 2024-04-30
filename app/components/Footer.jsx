@@ -7,7 +7,9 @@ const Footer = () => {
     <section className="footer-container">
         <div className="footer-left">
           <div>
-            <Image src={DK}/>
+            <Image src={DK}
+              alt=""
+            />
           </div>
           <div>
           <h4>Dawn Kelly</h4>

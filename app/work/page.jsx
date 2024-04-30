@@ -33,7 +33,7 @@ const WorkPage = () => {
           <div className='link-list'>
             <Link href="https://medium.com/@dawnkelly09/builders-wanted-objects-props-437981fd9d90" target="_blank" rel="noopener">Builders Wanted: Objects & Props</Link>
             <Link href="https://medium.com/@dawnkelly09/intro-to-eth-restaking-30466fa13b93" target="_blank" rel="noopener">Intro to ETH restaking</Link>
-            <Link href="https://medium.com/@dawnkelly09/cryptos-woman-problem-b3c5d6eb938b" target="_blank" rel="noopener">Crypto's woman problem</Link>
+            <Link href="https://medium.com/@dawnkelly09/cryptos-woman-problem-b3c5d6eb938b" target="_blank" rel="noopener">Crypto&apos;s woman problem</Link>
           </div>
         </div>
       </section>
