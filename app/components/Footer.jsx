@@ -5,7 +5,6 @@ import DK from '../../public/DK.svg'
 const Footer = () => {
   return (
     <section className="footer-container">
-        
         <div className="footer-left">
           <div>
             <Image src={DK}/>
