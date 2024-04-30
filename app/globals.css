@@ -196,15 +196,36 @@ p {
 /**FOOTER section**/
 
 .footer-container {
+  width: 100vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 6rem;
   align-items: center;
   margin-top: 4rem;
 }
 
+.footer-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
 .contact-link {
   padding: 0.25rem;
+}
+
+/**WORK Page**/
+.work-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
 }
 
 

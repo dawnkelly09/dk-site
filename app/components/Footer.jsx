@@ -1,12 +1,20 @@
 import Link from "next/link"
+import Image from "next/image"
+import DK from '../../public/DK.svg'
 
 const Footer = () => {
   return (
     <section className="footer-container">
+        
         <div className="footer-left">
-            <h4>Dawn Kelly</h4>
+          <div>
+            <Image src={DK}/>
+          </div>
+          <div>
+          <h4>Dawn Kelly</h4>
             <h5>dawnkelly09@gmail.com</h5>
             <span className="small-text">© Dawn Kelly - last updated April 30, 2024</span>
+          </div>
         </div>
         <div className="contact-links">
             <h4 id='contact'>Where to find me:</h4>
