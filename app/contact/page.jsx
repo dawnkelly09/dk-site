@@ -19,7 +19,7 @@ const ContactPage = () => {
       <section>
         <div>
           <Link href="https://docs.google.com/document/d/1Z_RvRmz-OXIPKYszc2Pf5JpZNOv4oc6x-LNQlIedH1I/edit?usp=sharing" className="contact-link" target="_blank" rel="noopener">
-            <h4>Resume</h4>
+            <h4>Resume 📁</h4>
           </Link>
         </div>
       <div className="contact-links">
