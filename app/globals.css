@@ -72,9 +72,20 @@ h4 {
   font-weight: 700;
 }
 
-p {
+h5 {
   font-size: 1.25em;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.2em;
   color: var(--white);
+}
+
+/**SHARED styles**/
+.small-text {
+  font-size: small;
 }
 
 /**NAVBAR**/
@@ -181,6 +192,22 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+/**FOOTER section**/
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.contact-link {
+  padding: 0.25rem;
+}
+
+
 
 @media screen and (max-width: 767px) {
   .hero-container {
