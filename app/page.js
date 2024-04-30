@@ -11,6 +11,7 @@ export default function Home() {
           src={HeroImage}
           alt="Picture of Dawn Kelly"
           className="hero-image"
+          priority
         />
       </div>
       <div className="grid-box-2 text1">

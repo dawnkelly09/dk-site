@@ -41,9 +41,6 @@ const ContactPage = () => {
             </Link>
         </div>
       </section>
-      <section>
-        resume
-      </section>
     </main>
   )
 }
