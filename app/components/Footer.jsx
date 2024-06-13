@@ -14,7 +14,7 @@ const Footer = () => {
           <div>
           <h4>Dawn Kelly</h4>
             <h5>dawnkelly09@gmail.com</h5>
-            <span className="small-text">© Dawn Kelly - last updated April 30, 2024</span>
+            <span className="small-text">© Dawn Kelly - last updated June 13, 2024</span>
           </div>
         </div>
         <div className="contact-links">
