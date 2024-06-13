@@ -10,7 +10,7 @@ const WorkPage = () => {
     <main className='work-container'>
       <section>
         <div className='center-me'>
-          <h2>A collection of things I've yeeted into the universe:</h2>
+          <h2>A collection of things I&apos;ve yeeted into the universe:</h2>
         </div>
       </section>
       <section>

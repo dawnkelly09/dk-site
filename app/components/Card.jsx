@@ -18,7 +18,7 @@ const Card = ({ imageUrl, tags, title, description, readMoreUrl }) => {
           <p className='description'>{description}</p>
 
           <Link href={readMoreUrl}>
-            <button>Let's go! 🚀</button>
+            <button>Let&apos;s go! 🚀</button>
           </Link>
         </div>
       </div>
